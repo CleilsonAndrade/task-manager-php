@@ -1,0 +1,49 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ebebeb;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: background-color ease-in;
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  transition: background-color ease-in-out;
+  background-color: #ccc;
+}
+
+.delete {
+  color: #ff0000;
+  margin-left: 5px;
+  text-decoration: none;
+}
